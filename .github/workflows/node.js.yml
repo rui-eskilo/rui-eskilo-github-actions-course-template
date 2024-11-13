@@ -45,6 +45,7 @@ jobs:
         cache: 'npm'
     - name: npm install, and test
       run: |
+        npm install --legacy-peer-deps
         npm test
       env:
         CI: true
