@@ -7,6 +7,8 @@ on:
     types: [open, edited]
   issue_comment:
     types: [created, edited]
+
+  workflow_dispatch:
     
 jobs:
   giphy-generator:
